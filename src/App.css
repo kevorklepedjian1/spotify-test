@@ -1,0 +1,45 @@
+a{
+  cursor: pointer;
+}
+.pic{
+  max-width: 500px;
+  max-height: 200px;
+}
+.k{
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.do{
+  max-width: 350px;
+  max-height: 250px;
+}
+@media  (max-width: 900px) {
+  .kk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .do{
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+}
+
+.kl{
+  max-width: 10px;
+  max-height: 10px;
+}
