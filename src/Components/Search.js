@@ -200,7 +200,7 @@ console.log(artists);
       
 <div className={styles.login_form_container}>
   <div className={styles.left}>
-  <Button className={styles.green_btn1}> <a className='text-white' href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login</a><img src={a} className="k"/></Button>
+  <a className={styles.green_btn1} href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login<img src={a} className="k"/></a>
     
    
   </div>
